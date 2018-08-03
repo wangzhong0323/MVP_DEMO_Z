@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_tab_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableTop="@drawable/tab_icon_home"
+        android:gravity="center"
+        android:text="主页"
+        android:textColor="@color/primarybar_txt"
+        android:textSize="14sp"
+        android:padding="@dimen/space_6"
+        />
+
+    <TextView
+        android:id="@+id/tv_tab_mes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_tab_indicator"
+        android:layout_toRightOf="@id/tv_tab_indicator"
+        android:background="#f00"
+        android:gravity="center"
+        android:text="9"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

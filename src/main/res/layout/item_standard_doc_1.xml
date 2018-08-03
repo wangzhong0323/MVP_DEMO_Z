@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_item_standard_doc_name"
+        android:textSize="16sp"
+        android:textColor="#333"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="文档名称"
+        />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/iv_item_standard_doc_into_next_page"
+        android:src="@drawable/icon_into_item_1"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_standard_doc_update_1"
+        android:text="有更新"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/iv_item_standard_doc_into_next_page"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+
+        android:textColor="@android:color/holo_red_light"
+        />
+
+</RelativeLayout>
